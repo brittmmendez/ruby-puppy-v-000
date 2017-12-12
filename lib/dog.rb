@@ -7,7 +7,7 @@ class Dog
     @name=name
     @@all<<self
   end
-  
+
   def self.clear_all
     @@all=[]
   end
@@ -17,4 +17,4 @@ class Dog
       puts name.name
     end
   end
-  
+end
